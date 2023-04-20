@@ -72,6 +72,70 @@ public class MovCamara : MonoBehaviour
             Vector3 posicionPlayer = new Vector3(-7.38f, -3.52f, 0);
             this.transform.position = posicionPlayer;
         }
+
+        if (obj.gameObject.tag == "portal9")
+        {
+            Vector3 posicioncamara = new Vector3(-20.22f, 11.87f, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(-15.5f, 13.53f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal10")
+        {
+            Vector3 posicioncamara = new Vector3(20.22f, 12.1f, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(13.79f, 12.36f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal11")
+        {
+            Vector3 posicioncamara = new Vector3(0, 11.9f, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(-7.42f, 13.52f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal12")
+        {
+            Vector3 posicioncamara = new Vector3(0, 11.9f, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(7.5f, 12.44f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal13")
+        {
+            Vector3 posicioncamara = new Vector3(-19.9f, -14, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(-11.82f, -12.53f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal14")
+        {
+            Vector3 posicioncamara = new Vector3(0, -14, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(-7.1f, -13.49f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal15")
+        {
+            Vector3 posicioncamara = new Vector3(20.5f, -13.73f, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(13.79f, -14.85f, 0);
+            this.transform.position = posicionPlayer;
+        }
+
+        if (obj.gameObject.tag == "portal16")
+        {
+            Vector3 posicioncamara = new Vector3(0, -14, -10);
+            camara.transform.position = posicioncamara;
+            Vector3 posicionPlayer = new Vector3(6.99f, -13.49f, 0);
+            this.transform.position = posicionPlayer;
+        }
     }
 
 }
